@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Registro de atividades</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Registro das atividades</h1>
+    <button onclick="registrar('chegada')">Registrar inicio</button>
+    <button onclick="registrar('saida')">Registrar termino</button>
+    <button onclick="exportarParaTXT()" class="export-btn">Exportar para TXT</button>
+    <button onclick="resetarDados()" class="reset-btn">Resetar Dados</button>
+    <div class="registro">
+      <h2>Registro das atividade concluidas</h2>
+      <ul id="listaRegistros">
+      
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
