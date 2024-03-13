@@ -54,6 +54,8 @@ function exportarParaTXT() {
   URL.revokeObjectURL(url);
 }
 
+
+
 function resetarDados() {
   if (confirm('Tem certeza que deseja resetar todos os dados?')) {
     localStorage.removeItem('registros');
