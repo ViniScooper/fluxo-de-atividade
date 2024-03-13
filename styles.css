@@ -2,18 +2,25 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: rgba(41, 18, 18, 0.904);
+
   }
   
   .container {
     max-width: 600px;
     margin: 20px auto;
     text-align: center;
+    background-color: #1335a74d;
+    border-radius: 5px;
+    border: 2px solid black; /* Adicionando a borda preta */
+
   }
   
   button {
     padding: 10px 20px;
     font-size: 16px;
     margin: 5px;
+    border-radius: 50px;
   }
   
   .export-btn, .reset-btn {
@@ -22,6 +29,7 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    border-radius: 50px;
   }
   
   .export-btn {
@@ -35,9 +43,12 @@ body {
   }
   
   .registro {
-    border-top: 2px solid #ccc;
+    border-top: 9px solid #f1e6e6;
     padding-top: 20px;
     margin-top: 20px;
+    border-radius: 30px;
+    color: white; /* Alterando a cor do texto para branco */
+    font-size: 20px;
   }
   
   ul {
@@ -49,3 +60,8 @@ body {
     margin-bottom: 10px;
   }
   
+
+  h1{
+    color: #e4e2e2;
+    font: size 30px;;
+  }
